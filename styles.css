@@ -1,0 +1,138 @@
+header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(
+    360deg,
+    rgba(255, 255, 255, 0),
+    rgb(20, 20, 20)
+  );
+}
+
+body {
+  background: url("./imgs/tinder_bg.jpeg") no-repeat;
+  background-size: cover;
+  backdrop-filter: brightness(0.4);
+  min-height: 100vh;
+  margin: 0;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-login {
+  background-color: white;
+  color: black;
+  padding: 8px 10px;
+  border-radius: 25px;
+  font-size: larger;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.btn-login:hover {
+  color: rgb(92, 92, 92);
+}
+
+.btn-language {
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  padding: 8px 10px;
+  border-radius: 25px;
+  font-size: larger;
+  font-weight: bold;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.btn-language:hover {
+  background-color: rgba(59, 59, 59, 0.604);
+}
+
+.logo-font {
+  color: white;
+  display: inline;
+  font-family: Tinder-Font;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+ul {
+  display: inline;
+  padding-inline-start: 10px;
+  position: absolute;
+  margin-bottom: 10px;
+}
+
+li {
+  display: inline;
+  margin-inline: 8px;
+}
+li:hover {
+  text-decoration: underline red;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.a-li {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  height: 70vh;
+  align-items: center;
+}
+
+.main-control {
+  width: 100%;
+  min-height: 200px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.a-li:hover {
+  color: red;
+}
+
+.h1-text {
+  color: white;
+  font-size: 120px;
+  margin-bottom: 10px;
+}
+
+.btn-register {
+  color: white;
+  background-image: linear-gradient(7deg, #e91e3e, #e91e5d, #e91e53, #ff9900cc);
+  font-family: Sarabun-Font;
+  font-size: larger;
+  font-weight: bolder;
+  padding: 10px 48px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn-register:hover{
+    background-image: linear-gradient(7deg, #f04a63, #f14e82, #e74973, #fabe63cc);
+}
+
+@font-face {
+  font-family: Tinder-Font;
+  src: url(./fonts/Tinder-Logo-Font/Nunito-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Sarabun-Font;
+  src: url(./fonts/Sarabun/Sarabun-Regular.ttf);
+}
